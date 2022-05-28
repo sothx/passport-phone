@@ -1,0 +1,49 @@
+{
+  "name": "passport-phone",
+  "version": "1.0.0",
+  "description": "Mobile phone and code authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "phone",
+    "auth",
+    "authn",
+    "authentication",
+    "phonenumber",
+    "mobilephone"
+  ],
+  "author": {
+    "name": "Sothx",
+    "email": "i@sothx.com",
+    "url": "https://www.sothx.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sothx/passport-mobile-phone.git"
+  },
+  "bugs": {
+    "url": "http://github.com/sothx/passport-mobile-phone/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "1.x.x"
+  },
+  "devDependencies": {
+    "make-node": "0.4.6",
+    "mocha": "2.x.x",
+    "chai": "2.x.x",
+    "chai-passport-strategy": "0.1.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
