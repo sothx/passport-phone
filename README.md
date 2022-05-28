@@ -14,6 +14,9 @@ The phone authentication strategy authenticates users using a phoneNumber and ve
 
 ```javascript
 passport.use(new PhoneStrategy(
+  {
+    phoneNumberRegExp: /^(?:(?:\+|00)86)?1(?:(?:3[\d])|(?:4[5-79])|(?:5[0-35-9])|(?:6[5-7])|(?:7[0-8])|(?:8[\d])|(?:9[189]))\d{8}$/ //(ChinaPhoneNumber RegExp)
+  },
   function(phoneNumber, verifyCode, done) {
     User.findOne({ phoneNumber }, function (err, user) {
       if (err) { return done(err); }

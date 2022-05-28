@@ -1,6 +1,6 @@
 {
   "name": "passport-phone",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Mobile phone and code authentication strategy for Passport.",
   "keywords": [
     "passport",
