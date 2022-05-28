@@ -18,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/sothx/passport-mobile-phone.git"
+    "url": "git://github.com/sothx/passport-phone.git"
   },
   "bugs": {
-    "url": "http://github.com/sothx/passport-mobile-phone/issues"
+    "url": "http://github.com/sothx/passport-phone/issues"
   },
   "license": "MIT",
   "licenses": [
