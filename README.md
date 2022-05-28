@@ -39,7 +39,7 @@ app.post('/login',
   });
 ```
 
-## 提问 & 支持
+## Support
 
 Please open an issue [here](https://github.com/sothx/passport-phone/issues).
 
